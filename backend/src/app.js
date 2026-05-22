@@ -3,7 +3,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { runner_router } from './routes/excuter.route.js';
 import { userroute } from './routes/user.route.js';
-import { prob_router } from './routes/problem.route.js';
+import {prob_router} from './routes/problem.route.js';
 import { admin_rou } from './routes/admin.route.js';
 import { system_rou } from './routes/system.route.js';
 import path from "path";
